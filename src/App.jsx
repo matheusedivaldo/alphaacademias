@@ -6,8 +6,7 @@ function App() {
       <div className="card">
         <h1>O domínio perfeito para sua academia!</h1>
         <p>
-          alphaacademias.com.br pode ser seu! Essa é a oportunidade perfeita para impulsionar sua marca no mercado fitness.
-          Um domínio memorável e profissional por um preço justo. Não perca!
+          <span className="highlight">alphaacademias.com.br</span> pode ser seu! Essa é a oportunidade perfeita para impulsionar sua marca no mercado fitness. Um domínio memorável e profissional por um preço justo. Não perca!
         </p>
         <div className="contact">
           <p>
