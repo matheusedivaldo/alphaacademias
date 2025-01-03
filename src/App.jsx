@@ -1,16 +1,14 @@
 import { FaWhatsapp, FaEnvelope } from "react-icons/fa";
 
 function App() {
-  const currentYear = new Date().getFullYear();
-
   return (
     <div className="container">
-      <header className="header">
-        Desenvolvido em {currentYear} - Matheus Edivaldo
-      </header>
       <div className="card">
         <h1>O domínio perfeito para sua academia!</h1>
-        <p>alphaacademias.com.br pode ser seu. Aproveite essa oportunidade para destacar sua marca no mundo fitness.</p>
+        <p>
+          alphaacademias.com.br pode ser seu! Essa é a oportunidade perfeita para impulsionar sua marca no mercado fitness.
+          Um domínio memorável e profissional por um preço justo. Não perca!
+        </p>
         <div className="contact">
           <p>
             <FaWhatsapp />{" "}
