@@ -60,3 +60,42 @@ body {
   color: #03dac6;
   text-decoration: none;
 }
+
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+    height: auto;
+    justify-content: flex-start;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .card h1 {
+    font-size: 1.8rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+
+  .contact p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card h1 {
+    font-size: 1.6rem;
+  }
+
+  .card p {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+
+  .contact p {
+    font-size: 0.85rem;
+  }
+}
